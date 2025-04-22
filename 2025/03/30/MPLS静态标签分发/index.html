@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://c-zkun.github.io/2025/03/30/test/"/>
+  <link rel="canonical" href="https://c-zkun.github.io/2025/03/30/mpls静态标签分发/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -27,26 +27,25 @@
   <!-- Custom Files headBegin end-->
   <!-- front-matter head_begin begin -->
   <!-- front-matter head_begin end -->
-    <link rel="shortcut icon" type='image/x-icon' href="/images/logo.png">
   <link rel="preload" href="/css/style.css" as="style">
   <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1654736714924/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>test - Lusers' blog</title>
+  <title>MPLS静态标签分发 - Lusers's blog</title>
   <meta name="keywords" content="null">
-  <meta desc name="description" content="记录成长！ - Lusers - Lusers' blog">
+  <meta desc name="description" content="记录成长！ - Lusers - Lusers's blog">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="test">
-<meta property="og:url" content="https://c-zkun.github.io/2025/03/30/test/index.html">
-<meta property="og:site_name" content="Lusers&#39; blog">
-<meta property="og:description" content="thinking……thinking…………">
+<meta property="og:title" content="MPLS静态标签分发">
+<meta property="og:url" content="https://c-zkun.github.io/2025/03/30/MPLS%E9%9D%99%E6%80%81%E6%A0%87%E7%AD%BE%E5%88%86%E5%8F%91/index.html">
+<meta property="og:site_name" content="Lusers&#39;s blog">
+<meta property="og:description" content="实验拓扑: 准备工作： 12345678910111213141516171819# PE1设备配置:syssys SCNU_PE1#int g 0&#x2F;0&#x2F;0ip add 12.1.1.1 24int loo0ip add 1.1.1.1 32#ospf 1 route 1.1.1.1area 0net 12.1.1.1 0.0.0.0net 1.1.1.1 0.0.0.0#bgp 1234rout">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2025-03-30T03:42:48.870Z">
-<meta property="article:modified_time" content="2025-03-30T03:43:27.684Z">
+<meta property="article:modified_time" content="2025-04-22T15:07:30.761Z">
 <meta property="article:author" content="Lusers">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
@@ -1629,7 +1628,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1744782598036),
+    lastupdate: new Date(1745334474790),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -3012,12 +3011,12 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           
 <div id="l_main" class=''>
   <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://c-zkun.github.io/2025/03/30/test/">
+  <link itemprop="mainEntityOfPage" href="https://c-zkun.github.io/2025/03/30/MPLS静态标签分发/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Lusers' blog">
+    <meta itemprop="name" content="Lusers's blog">
   </span>
   <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="Lusers' blog">
+    <meta itemprop="name" content="Lusers's blog">
     <meta itemprop="description" content="记录成长！">
   </span>
   
@@ -3033,7 +3032,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       <h1 class="title" itemprop="name headline">
-        test
+        MPLS静态标签分发
       </h1>
       <div class='new-meta-box'>
         
@@ -3080,8 +3079,18 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <p>thinking……thinking…………</p>
+    <p>实验拓扑:<br><img src="/../images/topology.png" class="lazyload" data-srcset="/../images/topology.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="本地路径"> <!-- 此路径表示图片和MD文件，处于同一目录 --><br>准备工作：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># PE1设备配置:</span><br><span class="line">sys</span><br><span class="line">sys SCNU_PE1</span><br><span class="line">#</span><br><span class="line">int g 0/0/0</span><br><span class="line">ip add 12.1.1.1 24</span><br><span class="line">int loo0</span><br><span class="line">ip add 1.1.1.1 32</span><br><span class="line">#</span><br><span class="line">ospf 1 route 1.1.1.1</span><br><span class="line">area 0</span><br><span class="line">net 12.1.1.1 0.0.0.0</span><br><span class="line">net 1.1.1.1 0.0.0.0</span><br><span class="line">#</span><br><span class="line">bgp 1234</span><br><span class="line">route 1.1.1.1</span><br><span class="line">peer 4.4.4.4 as-nu 1234</span><br><span class="line">peer 4.4.4.4 con lo0</span><br><span class="line">#</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"># P2设备配置:</span><br><span class="line">sys</span><br><span class="line">sys SCNU_P2</span><br><span class="line">#</span><br><span class="line">int g 0/0/0</span><br><span class="line">ip add 12.1.1.2 24</span><br><span class="line">int g 0/0/1</span><br><span class="line">ip add 23.1.1.2 24</span><br><span class="line">int loo0</span><br><span class="line">ip add 2.2.2.2 32</span><br><span class="line">#</span><br><span class="line">ospf 1 route 2.2.2.2</span><br><span class="line">area 0</span><br><span class="line">net 12.1.1.2 0.0.0.0</span><br><span class="line">net 23.1.1.2 0.0.0.0</span><br><span class="line">net 2.2.2.2 0.0.0.0</span><br><span class="line">#</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"># P3设备配置:</span><br><span class="line">sys</span><br><span class="line">sys SCNU_P3</span><br><span class="line">int g 0/0/0</span><br><span class="line">ip add 23.1.1.3 24</span><br><span class="line">int g 0/0/1</span><br><span class="line">ip add 34.1.1.3 24</span><br><span class="line">int lo0</span><br><span class="line">ip add 3.3.3.3 24</span><br><span class="line">#</span><br><span class="line">opsf 1 route 3.3.3.3</span><br><span class="line">area 0</span><br><span class="line">net 23.1.1.3 0.0.0.0</span><br><span class="line">net 34.1.1.3 0.0.0.0</span><br><span class="line">net 3.3.3.3 0.0.0.0</span><br><span class="line">#</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># PE4设备配置:</span><br><span class="line">sys</span><br><span class="line">sys SCNU_PE4</span><br><span class="line">#</span><br><span class="line">int g 0/0/0</span><br><span class="line">ip add 34.1.1.4 24</span><br><span class="line">int loo0</span><br><span class="line">ip add 4.4.4.4 32</span><br><span class="line">#</span><br><span class="line">ospf 1 route 4.4.4.4</span><br><span class="line">area 0</span><br><span class="line">net 34.1.1.4 0.0.0.0</span><br><span class="line">net 4.4.4.4 0.0.0.0</span><br><span class="line">#</span><br><span class="line">bgp 1234</span><br><span class="line">route 4.4.4.4</span><br><span class="line">peer 1.1.1.1 as-nu 1234</span><br><span class="line">peer 1.1.1.1 con lo0</span><br><span class="line">#</span><br></pre></td></tr></table></figure>
+<p>静态LSP配置:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># ingress入站</span><br><span class="line"># PE4</span><br><span class="line">mpls lsr-id 4.4.4.4</span><br><span class="line">mpls</span><br><span class="line">qui</span><br><span class="line">#</span><br><span class="line">static-lsp ingress to100 destination 100.100.100.100 32 nexthop 34.1.1.3 out-label 400</span><br><span class="line">#</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"># transit中间</span><br><span class="line"># P3</span><br><span class="line">mpls lsr-id 3.3.3.3</span><br><span class="line">mpls</span><br><span class="line">qui</span><br><span class="line">#</span><br><span class="line">static-lsp transit to100 in-label 400 nexthop 23.1.1.2 out-label 300</span><br><span class="line">#####################################################</span><br><span class="line"># P2</span><br><span class="line">mpls lsr-id 2.2.2.2</span><br><span class="line">mpls</span><br><span class="line">qui</span><br><span class="line">#</span><br><span class="line">static-lsp transit to100 in-label 300 nexthop 12.1.1.1 out-label 200</span><br><span class="line">#</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># egress出站</span><br><span class="line"># PE1</span><br><span class="line">mpls lsr 1.1.1.1</span><br><span class="line">mpls</span><br><span class="line">quit</span><br><span class="line">#</span><br><span class="line">static-lsp egress to100 in-label 200</span><br><span class="line">#</span><br></pre></td></tr></table></figure>
 
+<p>动态LDP配置:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">mpls lsr x.x.x.x</span><br><span class="line">mpls</span><br><span class="line">mpls ldp</span><br><span class="line"># 接口下</span><br><span class="line">mpls</span><br><span class="line">mpls ldp</span><br><span class="line"># 在bgp里宣告100.100.100.100 32</span><br><span class="line">mpls</span><br><span class="line">lsp-trigger all</span><br><span class="line">#</span><br><span class="line">route recursive-lookup tunnel</span><br></pre></td></tr></table></figure>
   </div>
   
   
@@ -3096,8 +3105,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
           <div class="copyright license">
-            <div class="license-title">test</div>
-            <div class="license-link"><a href="https://c-zkun.github.io/2025/03/30/test/">https://c-zkun.github.io/2025/03/30/test/</a>
+            <div class="license-title">MPLS静态标签分发</div>
+            <div class="license-link"><a href="https://c-zkun.github.io/2025/03/30/MPLS静态标签分发/">https://c-zkun.github.io/2025/03/30/MPLS静态标签分发/</a>
             </div>
             <div class="license-meta">
               <div class="license-meta-item">
@@ -3107,6 +3116,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               <div class="license-meta-item">
                 <div class="license-meta-title">发布于</div>
                 <div class="license-meta-text">2025年3月30日</div>
+              </div>
+              
+              <div class="license-meta-item">
+                <div class="license-meta-title">更新于</div>
+                <div class="license-meta-text">2025年4月22日</div>
               </div>
               
               
@@ -3131,10 +3145,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-03-30T11:43:27+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-04-22T23:07:30+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2025年3月30日</p>
+    <p>更新于：2025年4月22日</p>
   </a>
 </div>
 
@@ -3153,7 +3167,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://c-zkun.github.io/2025/03/30/test/&title=test - Lusers' blog&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://c-zkun.github.io/2025/03/30/MPLS%E9%9D%99%E6%80%81%E6%A0%87%E7%AD%BE%E5%88%86%E5%8F%91/&title=MPLS静态标签分发 - Lusers's blog&summary="
           
           >
           
@@ -3165,7 +3179,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://c-zkun.github.io/2025/03/30/test/&title=test - Lusers' blog&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://c-zkun.github.io/2025/03/30/MPLS%E9%9D%99%E6%80%81%E6%A0%87%E7%AD%BE%E5%88%86%E5%8F%91/&title=MPLS静态标签分发 - Lusers's blog&summary="
           
           >
           
@@ -3177,7 +3191,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://c-zkun.github.io/2025/03/30/test/&title=test - Lusers' blog&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://c-zkun.github.io/2025/03/30/MPLS%E9%9D%99%E6%80%81%E6%A0%87%E7%AD%BE%E5%88%86%E5%8F%91/&title=MPLS静态标签分发 - Lusers's blog&summary="
           
           >
           
@@ -3229,7 +3243,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <article class="post white-box shadow floatable blur" id="comments">
     <span hidden>
-      <meta itemprop="discussionUrl" content="/2025/03/30/test/index.html#comments">
+      <meta itemprop="discussionUrl" content="/2025/03/30/MPLS%E9%9D%99%E6%80%81%E6%A0%87%E7%AD%BE%E5%88%86%E5%8F%91/index.html#comments">
     </span>
     <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
@@ -3818,7 +3832,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Lusers' blog","url":"https://c-zkun.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Lusers","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://c-zkun.github.io/","sameAs":["https://github.com/volantis-x"],"description":"记录成长！"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://c-zkun.github.io/","name":"Lusers' blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https://c-zkun.github.io/2025/03/30/test/","name":"test"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Lusers' blog","url":"https://c-zkun.github.io/","keywords":null,"description":"记录成长！","author":{"@type":"Person","name":"Lusers","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://c-zkun.github.io/","description":"记录成长！"},"publisher":{"@type":"Organization","name":"Lusers' blog","url":"https://c-zkun.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://c-zkun.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"test","description":"记录成长！","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://c-zkun.github.io/2025/03/30/test/"},"author":{"@type":"Person","name":"Lusers","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://c-zkun.github.io/"},"publisher":{"@type":"Organization","name":"Lusers' blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://c-zkun.github.io/2025/03/30/test/","wordCount":0,"datePublished":"2025-03-30T03:42:48.870Z","dateModified":"2025-03-30T03:43:27.684Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Lusers's blog","url":"https://c-zkun.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Lusers","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://c-zkun.github.io/","sameAs":["https://github.com/volantis-x"],"description":"记录成长！"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://c-zkun.github.io/","name":"Lusers's blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https://c-zkun.github.io/2025/03/30/MPLS静态标签分发/","name":"MPLS静态标签分发"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Lusers's blog","url":"https://c-zkun.github.io/","keywords":null,"description":"记录成长！","author":{"@type":"Person","name":"Lusers","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://c-zkun.github.io/","description":"记录成长！"},"publisher":{"@type":"Organization","name":"Lusers's blog","url":"https://c-zkun.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://c-zkun.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"MPLS静态标签分发","description":"记录成长！","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://c-zkun.github.io/2025/03/30/MPLS%E9%9D%99%E6%80%81%E6%A0%87%E7%AD%BE%E5%88%86%E5%8F%91/"},"author":{"@type":"Person","name":"Lusers","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://c-zkun.github.io/"},"publisher":{"@type":"Organization","name":"Lusers's blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://c-zkun.github.io/2025/03/30/MPLS%E9%9D%99%E6%80%81%E6%A0%87%E7%AD%BE%E5%88%86%E5%8F%91/","wordCount":0,"datePublished":"2025-03-30T03:42:48.870Z","dateModified":"2025-04-22T15:07:30.761Z","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
